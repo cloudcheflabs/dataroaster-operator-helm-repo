@@ -3,7 +3,7 @@ entries:
   dataroaster-operator:
   - apiVersion: v2
     appVersion: 4.3.0
-    created: "2022-07-08T07:25:58.641015344Z"
+    created: "2022-07-08T07:49:59.12366521Z"
     dependencies:
     - name: dataroastermysql
       repository: https://cloudcheflabs.github.io/mysql-helm-repo/
@@ -13,19 +13,41 @@ entries:
       version: v1.0.1
     - name: dataroastertrinooperator
       repository: https://cloudcheflabs.github.io/trino-helm-repo/
-      version: v2.1.1
+      version: v2.1.2
     - name: dataroastersparkoperator
       repository: https://cloudcheflabs.github.io/helm-repository/
       version: v1.0.1
     description: dataroaster operator
-    digest: e055d4d629b3c90255b40cec3e0b0087bf8578efc83c72a81c4a8cb2bfa98d59
+    digest: 3625198363c028bc0b8fff849a98c1455e11eb0b37e6c4ffd3adc1a09680e740
+    name: dataroaster-operator
+    urls:
+    - dataroaster-operator-v3.0.4.tgz
+    version: v3.0.4
+  - apiVersion: v2
+    appVersion: 4.3.0
+    created: "2022-07-08T07:49:59.120773989Z"
+    dependencies:
+    - name: dataroastermysql
+      repository: https://cloudcheflabs.github.io/mysql-helm-repo/
+      version: v1.0.2
+    - name: dataroasterhelmoperator
+      repository: https://cloudcheflabs.github.io/helm-operator-helm-repo/
+      version: v1.0.1
+    - name: dataroastertrinooperator
+      repository: https://cloudcheflabs.github.io/trino-helm-repo/
+      version: v2.1.2
+    - name: dataroastersparkoperator
+      repository: https://cloudcheflabs.github.io/helm-repository/
+      version: v1.0.1
+    description: dataroaster operator
+    digest: 234affe09dc4a0f31a6f62ff649143ad183b0d3ee192dd00c5596ffab80d8410
     name: dataroaster-operator
     urls:
     - dataroaster-operator-v3.0.3.tgz
     version: v3.0.3
   - apiVersion: v2
     appVersion: 4.3.0
-    created: "2022-07-08T07:25:58.639121488Z"
+    created: "2022-07-08T07:49:59.119034965Z"
     dependencies:
     - name: dataroastermysql
       repository: https://cloudcheflabs.github.io/mysql-helm-repo/
@@ -47,7 +69,7 @@ entries:
     version: v3.0.2
   - apiVersion: v2
     appVersion: 4.3.0
-    created: "2022-07-08T07:25:58.636740021Z"
+    created: "2022-07-08T07:49:59.117678053Z"
     dependencies:
     - name: dataroastermysql
       repository: https://cloudcheflabs.github.io/mysql-helm-repo/
@@ -69,7 +91,7 @@ entries:
     version: v3.0.1
   - apiVersion: v2
     appVersion: 4.2.0
-    created: "2022-07-08T07:25:58.635543823Z"
+    created: "2022-07-08T07:49:59.116457808Z"
     dependencies:
     - name: dataroastermysql
       repository: https://cloudcheflabs.github.io/mysql-helm-repo/
@@ -91,7 +113,7 @@ entries:
     version: v3.0.0
   - apiVersion: v2
     appVersion: 3.3.2
-    created: "2022-07-08T07:25:58.634497025Z"
+    created: "2022-07-08T07:49:59.115335139Z"
     dependencies:
     - name: dataroastermysql
       repository: https://cloudcheflabs.github.io/mysql-helm-repo/
@@ -113,7 +135,7 @@ entries:
     version: v2.0.0
   - apiVersion: v2
     appVersion: 3.3.0
-    created: "2022-07-08T07:25:58.633499242Z"
+    created: "2022-07-08T07:49:59.11416569Z"
     dependencies:
     - name: dataroaster-helm-operator
       repository: https://cloudcheflabs.github.io/helm-operator-helm-repo/
@@ -130,4 +152,4 @@ entries:
     urls:
     - dataroaster-operator-v1.0.0.tgz
     version: v1.0.0
-generated: "2022-07-08T07:25:58.632348619Z"
+generated: "2022-07-08T07:49:59.108147324Z"
